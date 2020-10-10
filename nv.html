@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>walk</title>
+        <style>
+        .walk{
+        	width:180px;
+        	height:293px;
+        	background:url(walk.jpg);
+        }
+        .walk{
+        	animation: walk 900ms steps(1) infinite;
+        } 
+        @keyframes walk{
+        0% {
+		background-position:0 0;
+	}
+	14% {
+		background-position:-180px 0;
+	}
+	28% {
+		background-position:-360px 0;
+	}
+	42% {
+		background-position:-540px 0;
+	}
+	56% {
+		background-position:-720px 0;
+	}
+	70% {
+		background-position:-900px 0;
+	}
+	100% {
+		background-position:0 0;
+	}
+    }
+
+        </style>
+    </head>
+    <body>
+    <div class="walk"></div>
+    </body>
+</html>
